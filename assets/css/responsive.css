@@ -1,0 +1,17 @@
+@media(min-width: 0px) and (max-width: 992px){
+    /* navbar start */
+    #navbar{
+        height: 100px;
+    }
+    #navbar .navbar-nav {
+        position: relative;
+        z-index: 999;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: var(--secondary-color);
+        background: black;
+        margin: .5px;
+        padding-left: 10px;
+    }
+    /* navbar end */
+}
